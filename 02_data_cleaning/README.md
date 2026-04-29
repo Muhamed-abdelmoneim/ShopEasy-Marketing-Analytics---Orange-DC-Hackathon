@@ -50,6 +50,15 @@ This means:
 | Duplicates (same content on same day) | ROW_NUMBER() keeping highest Likes row |
 | CTR not pre-calculated | Calculated as (Clicks/Views)*100 inside CTE |
 
+### `Products`
+| Issue | Fix |
+|---|---|
+| Negative price values | `ABS(Price)` — converts negatives to positive instead of deleting (preserves source) |
+| Extra whitespace in ProductName | `TRIM(ProductName)` |
+| Inconsistent Category casing | `UPPER(TRIM(Category))` |
+| No price segmentation for analysis | Added `PriceTier` column: Budget (< 50) / Mid-Range (50–200) / Premium (> 200) |
+| Duplicate ProductIDs | `ROW_NUMBER() PARTITION BY ProductID` |
+
 ---
 
 ## CTE Pattern Used
@@ -85,3 +94,4 @@ WHERE rn = 1 AND ID IS NOT NULL;
 | `customer_journey.sql` | Customer_Journey (funnel data) |
 | `customer_reviews.sql` | Customer_Reviews (ratings + text) |
 | `engagement_data.sql` | Engagement_Data (campaign metrics) |
+| `Product.sql` | Products (our services) |
