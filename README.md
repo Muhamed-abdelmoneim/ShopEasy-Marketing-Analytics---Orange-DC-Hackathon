@@ -178,7 +178,7 @@ The model follows a **Star Schema** with:
 
 ## 📐 KPIs & DAX Measures
 
-See full documentation → [`04_powerbi/dax_measures.md`](04_powerbi/dax_measures.md)
+See full documentation → [`04_powerbi/dax_measures.md`](04_powerbi/dax_measures.md) 
 
 | KPI | Description |
 |---|---|
@@ -223,7 +223,7 @@ rating = int(round(((score + 1) / 2) * 9 + 1))  # Maps [-1, 1] → [1, 10]
 
 ## ⚔️ Challenges & How We Solved Them
 
-See full story → [`06_docs/challenges_and_decisions.md`](06_docs/challenges_and_decisions.md)
+See full story → [`06_docs/challenges_and_decisions.md`](06_docs/challenges_and_decisions.md) .  [`06_docs/data_dictionary.md`](06_docs/data_dictionary.md) 
 
 | Challenge | Solution |
 |---|---|
