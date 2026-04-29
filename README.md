@@ -103,7 +103,11 @@ shopeasy-marketing-analytics/
 │
 ├── 📁 05_screenshots/
 │   ├── data_model.png
-│   └── dashboard_overview.png
+│   └── Dashboard.gif
+│   ├── Home Page.png
+│   ├── Excecutive Overview.png
+│   └── Marketing & Engagement.png
+│   └── Product Quality & Customer Voice.png
 │
 └── 📁 06_docs/
     ├── challenges_and_decisions.md       ← Key decisions & lessons learned
