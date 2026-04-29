@@ -52,7 +52,7 @@ This project simulates a real-world marketing analytics engagement where raw, in
 ### Page 1 – Executive Overview
 High-level KPIs for decision-makers: Conversion Rate, AOV, Engagement Rate, Drop-Off %. Includes conversion funnel (View → Click → Drop-Off → Purchase) and trend over time.
 
-![Executive Overview](path/to/your/screenshot1.png)
+![Executive Overview](05_screenshots/Executive Overview.png)
 
 ### Page 2 – Marketing & Engagement
 Product-level campaign performance: CTR by product, views vs. conversion scatter plot, content-type engagement breakdown, and campaign ROI signals.
