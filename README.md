@@ -32,8 +32,8 @@ This project simulates a real-world marketing analytics engagement where raw, in
 
 ## 📊 Dashboard Preview
 
-![Dashboard Overview](05_screenshots/Executive Overview.png)
-![Data Model](05_screenshots/data_model.png)
+
+![Data Model](05_screenshots/Executive Overview.png)
 
 ---
 
