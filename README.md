@@ -1,4 +1,4 @@
-# 🛒 ShopEasy – Marketing Analytics Project
+# 🛒 ShopEasy – Marketing Analytics – Hackathon Project🏆
 
 <div align="center">
 
