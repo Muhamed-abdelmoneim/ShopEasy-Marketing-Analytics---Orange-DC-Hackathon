@@ -30,13 +30,6 @@ This project simulates a real-world marketing analytics engagement where raw, in
 
 ---
 
-## 📊 Dashboard Preview
-
-![Dashboard Preview](05_screenshots/Executive Overview.png)
-![Data Model](05_screenshots/Executive Overview.png)
-
----
-
 ## 📈 Results Snapshot
 
 | KPI | Value |
@@ -59,12 +52,17 @@ This project simulates a real-world marketing analytics engagement where raw, in
 ### Page 1 – Executive Overview
 High-level KPIs for decision-makers: Conversion Rate, AOV, Engagement Rate, Drop-Off %. Includes conversion funnel (View → Click → Drop-Off → Purchase) and trend over time.
 
+![Executive Overview](path/to/your/screenshot1.png)
+
 ### Page 2 – Marketing & Engagement
 Product-level campaign performance: CTR by product, views vs. conversion scatter plot, content-type engagement breakdown, and campaign ROI signals.
+
+![Marketing & Engagement](path/to/your/screenshot2.png)
 
 ### Page 3 – Customer Voice
 Sentiment scores from Python VADER, average ratings, review text table, and geographic distribution across markets.
 
+![Customer Voice](path/to/your/screenshot3.png)
 ---
 
 ## 📌 Business Problem
