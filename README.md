@@ -178,7 +178,7 @@ The model follows a **Star Schema** with:
 
 ## 📐 KPIs & DAX Measures
 
-See full documentation → [`04_powerbi/dax_measures.md`](04_powerbi/dax_measures.md) · [`06_docs/data_dictionary.md`](06_docs/data_dictionary.md)
+See full documentation → [`04_powerbi/dax_measures.md`](04_powerbi/dax_measures.md)
 
 | KPI | Description |
 |---|---|
@@ -293,8 +293,9 @@ Key differentiators that contributed:
 
 ## 👥 Team
 
-**Orange Digital Center – [i]NSTANT Hackathon**
+**Orange Digital Center – iNSTANT Hackathon**
 *Data Analysis Track | ~30 competing teams*
+*🏆 M A A Z O Team* 
 
 ---
 
