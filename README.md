@@ -272,9 +272,12 @@ python 03_sentiment_analysis/sentiment_analysis.py
 
 - Address checkout-stage friction **before** increasing ad spend
 - Invest in high-performing content formats (those with strong CTR signals)
+- Turn 840 happy customers into promoters to fix the 48% traffic drop and replace dying long-form content with short-form videos. Maximize ROI : Shift budget to high-conversion products (15.46%)
+- Replace failing long-form content with Short-form Video and prioritize Social Media to reverse the 57% view collapse.
 - Optimize low-converting campaign creatives — the data shows a budget allocation problem, not a reach problem
 - Launch churn-recovery campaigns targeting customers inactive for 30+ days
 - Use sentiment clusters to prioritize which product categories need quality improvements first
+  
 
 ---
 
