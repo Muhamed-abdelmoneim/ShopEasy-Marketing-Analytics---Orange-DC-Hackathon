@@ -315,7 +315,11 @@ dax  sentiment-analysis  business-intelligence  hackathon  nltk
 ```
  Orange Digital Center Egypt & Instant Software Solutions
 ```
-![Hachathon Certificate📜](Certificate.jpeg)
+
+<p align="center">
+  <img src="05_screenshots/presentation.png" width="22.5%" />
+  <img src="Certificate.jpeg" width="70%" />
+</p>
 
 ---
 
