@@ -6,8 +6,13 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-Sentiment%20Analysis-green?style=for-the-badge)
+![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-FF6F61?style=for-the-badge)
+![Data Migration](https://img.shields.io/badge/Data%20Migration-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![Marketing Analytics](https://img.shields.io/badge/Domain-Marketing%20Analytics-9cf?style=for-the-badge)
+![Competitive Teamwork](https://img.shields.io/badge/Soft%20Skills-Competitive%20Teamwork-red?style=for-the-badge&logo=users)
 ![Hackathon](https://img.shields.io/badge/Orange%20Digital%20Center-Hackathon-orange?style=for-the-badge)
-![Top 3](https://img.shields.io/badge/Hackathon-Top%203%20of%2030%20Teams-brightgreen?style=for-the-badge)
+![Award](https://img.shields.io/badge/Award-Top%203%20Winner-gold?style=for-the-badge&logo=google-cloud)
+
 
 **🏆 Orange Digital Center – Marketing Analytics Hackathon | Top 3 out of ~30 Teams**
 
