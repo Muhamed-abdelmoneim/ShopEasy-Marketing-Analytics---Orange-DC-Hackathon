@@ -311,6 +311,12 @@ dax  sentiment-analysis  business-intelligence  hackathon  nltk
 
 ---
 
+## 📜HACKATHON Certificate 🏅
+
+![Hachathon Certificate📜](Certificate.jpeg)
+
+---
+
 ## 📄 License
 
 This project is open source under the [MIT License](LICENSE).
