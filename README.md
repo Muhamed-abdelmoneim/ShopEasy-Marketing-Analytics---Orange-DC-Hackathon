@@ -20,7 +20,9 @@
 
 </div>
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📌 Executive Summary
 
@@ -33,7 +35,9 @@ This project simulates a real-world marketing analytics engagement where raw, in
 - Added bonus sentiment analysis layer using Python (1,363 reviews scored)
 - Delivered business recommendations tied to conversion, engagement, and ROI performance
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📈 Results Snapshot
 
@@ -50,7 +54,9 @@ This project simulates a real-world marketing analytics engagement where raw, in
 | 📝 Reviews Analyzed (Python) | **1,363** |
 | 🏆 Hackathon Result | **Top 3 / ~30 Teams** |
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📊 Project Dashboard Demo
 
@@ -58,12 +64,19 @@ This project simulates a real-world marketing analytics engagement where raw, in
 
 ![Dashboard Demo](05_screenshots/Dashboard.gif)
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
+
 ### 📋 Key Insights Covered:
 * **Executive Overview:** Conversion Rate, AOV, and Drop-Off analysis.
 * **Marketing & Engagement:** CTR performance and campaign ROI.
 * **Customer Voice:** VADER sentiment scores and geographic distribution.
----
+
+
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📌 Business Problem
 
@@ -77,7 +90,9 @@ This project simulates a real-world marketing analytics engagement where raw, in
 
 Our task: Act as a Data Analyst team — identify root causes, clean the data, build KPIs, and present insights with business recommendations.
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🗂️ Project Structure
 
@@ -119,7 +134,9 @@ shopeasy-marketing-analytics/
     └── data_dictionary.md                ← Column definitions & business logic
 ```
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🔄 Project Workflow
 
@@ -131,7 +148,9 @@ Understand Problem  →  Explore & Restore DB  →  Data Cleaning (SQL CTEs)
    EDA & Insights  →  Sentiment Analysis (Python)  →  Dashboard  →  Presentation
 ```
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🛠️ Data Cleaning Approach (SQL Server)
 
@@ -163,7 +182,9 @@ SELECT ... FROM Deduplicated WHERE rn = 1;
 
 These CTEs were then used directly inside **Power BI Import Mode** as the native query — so data arrives clean without ever touching the source.
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📊 Data Model (Power BI)
 
@@ -179,7 +200,9 @@ The model follows a **Star Schema** with:
 - `full_score_reviews` (from Python sentiment output — joined on ReviewID)
 - `DAX Measures` (isolated measures table for clean organization)
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📐 KPIs & DAX Measures
 
@@ -196,7 +219,9 @@ See full documentation → [`04_powerbi/dax_measures.md`](04_powerbi/dax_measure
 | **Drop-off Rate** | DROP-OFF actions ÷ total visits |
 | **Lost Deals at Checkout** | Drop-offs specifically at checkout stage |
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🤖 Sentiment Analysis (Bonus)
 
@@ -212,7 +237,9 @@ rating = int(round(((score + 1) / 2) * 9 + 1))  # Maps [-1, 1] → [1, 10]
 - Loaded into Power BI via Power Query and joined to the `customer_reviews` table on `ReviewID`
 - Visualized in the dashboard as **Sentiment Overview**
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 💡 Key Insights
 
@@ -224,7 +251,9 @@ rating = int(round(((score + 1) / 2) * 9 + 1))  # Maps [-1, 1] → [1, 10]
 4. **Churned customers (>30 days inactive) represent a significant recoverable segment.**
 5. **Engagement peaks on specific content types** — actionable signal for future campaign targeting.
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## ⚔️ Challenges & How We Solved Them
 
@@ -237,7 +266,9 @@ See full story → [`06_docs/challenges_and_decisions.md`](06_docs/challenges_an
 | Instructor said "don't modify source data" | CTEs as abstraction layer — zero source modification |
 | Time pressure vs. 30 other teams | Focused on depth of insights over breadth of visuals |
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🧰 Tech Stack
 
@@ -250,7 +281,9 @@ See full story → [`06_docs/challenges_and_decisions.md`](06_docs/challenges_an
 | **Python 3** | Sentiment analysis (NLTK VADER + SQLAlchemy + pandas) |
 | **Excel / XLSX** | Sentiment output format for Power BI ingestion |
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🚀 How to Run
 
@@ -271,7 +304,9 @@ python 03_sentiment_analysis/sentiment_analysis.py
 2. Update the SQL Server connection string to your local instance
 3. Refresh data
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📈 Recommendations
 
@@ -284,7 +319,9 @@ python 03_sentiment_analysis/sentiment_analysis.py
 - Use sentiment clusters to prioritize which product categories need quality improvements first
   
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🥉 Hackathon Outcome
 
@@ -297,7 +334,9 @@ Key differentiators that contributed:
 - Focus on root-cause recommendations, not only descriptive analytics
 - Ability to explain every number and every decision under Q&A pressure
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 👥 Team
 
@@ -305,7 +344,9 @@ Key differentiators that contributed:
 *Data Analysis Track | ~30 competing teams*
 *🏆 M A A Z O Team* 
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 🔎 Suggested GitHub Topics
 
@@ -314,7 +355,9 @@ sql-server  power-bi  data-analysis  marketing-analytics
 dax  sentiment-analysis  business-intelligence  hackathon  nltk
 ```
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📜HACKATHON Certificate 🏅
 ```
@@ -326,7 +369,9 @@ dax  sentiment-analysis  business-intelligence  hackathon  nltk
   <img src="Certificate.jpeg" width="70%" />
 </p>
 
----
+<p align="center">
+  <img src="https://hyperweave.app/v1/divider/band/chrome.static" alt="chrome band divider" width="100%"/>
+</p>
 
 ## 📄 License
 
